@@ -10,10 +10,16 @@ body {
 
 
 
-h1, p 
-#slogan {
+h1, #slogan {
 	background: url('../images/laptops.jpeg');
 	background-size: cover;
 	color: #0065a4;
 	font-style: italic;
+}
+
+p {color: #0065a4;
+   font-size: 20px
+   font-weight: 500;
+   font-family: Helvetica;
+
 }
