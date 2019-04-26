@@ -1,12 +1,18 @@
 body {
 	background-color: #E9F6FB;
 	color: #6B8BE8;
-
+	
 }
+
+#responsive-image {  
+	width: 100%;  height: auto; 
+} 
+
+
 
 h1, p 
 #slogan {
-	background: url('images/laptops.jpeg');
+	background: url('../images/laptops.jpeg');
 	background-size: cover;
 	color: #0065a4;
 	font-style: italic;
