@@ -7,6 +7,7 @@ body {
 h1, p 
 #slogan {
 	background-image: url('images/laptops.jpeg');
+	background-size: cover;
 	color: #0065a4;
 	font-style: italic;
 }
