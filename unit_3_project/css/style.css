@@ -15,6 +15,7 @@ h1, #slogan {
 	background-size: cover;
 	color: #0065a4;
 	font-style: italic;
+	text-align: center;
 }
 
 p {color: #0065a4;
