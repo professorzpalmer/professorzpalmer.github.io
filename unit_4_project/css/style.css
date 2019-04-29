@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Istok+Web);
 body {
 	background-color: #E9F6FB;
 	color: #6B8BE8;
@@ -14,9 +15,9 @@ h1, #slogan {
 	background: url('../images/laptops.jpeg');
 	background-size: cover;
 	color: #0065a4;
-	font-style: italic;
+	font-family: Istok Web, sans-serif;
 	text-align: center;
-	font-size: 40px;
+	font-size: 2em;
 }
 
 p {color: #0065a4;
