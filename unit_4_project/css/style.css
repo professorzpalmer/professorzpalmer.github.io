@@ -12,7 +12,6 @@ body {
 
 
 h1, #slogan {
-	background: url('../images/laptops.jpeg');
 	background-size: cover;
 	color: #0065a4;
 	font-family: Istok Web, sans-serif;
@@ -26,3 +25,4 @@ p {color: #0065a4;
    font-family: Helvetica;
 
 }
+
