@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Istok+Web);
 
+* { margin:0; 
+	padding:0; 
+	box-sizing:border-box;  
+} 
+
 #responsive-image {  
 	width: 100%;  height: auto; 
 } 
@@ -8,12 +13,12 @@ body {
   max-width: 90%;
   margin: auto;
   background-color: #f4f4f4;
+  font-size: 20px;
 }
 
 
 nav {
 	background-color: #aaaaaa;
-	border: 1%;
 	padding: 1%;
 }
 
@@ -49,18 +54,18 @@ nav {
 }
 
 a {
-	font-size: 1.2em;
+	font-size: 1em;
 	font-weight: 300;
 	font-family: Istok Web, sans-serif;
 	color: blue;
 	text-align: left;
+	text-decoration: none;
 }
 
 
 article {
 	background-color: #f4f4f4;
-	border: 1px;
-	padding: 20px;
+	padding: 1%;
 }
 
 footer {
@@ -79,28 +84,26 @@ h1 {
 }
 
 h2 {
-	font-size: 3em
+	font-size: 2em
 	background-size: cover;
 	font-family: Istok Web, sans-serif;
 	font-weight: 600;
 	color: #c45e5e;
 	text-align: left;
-	padding: 1%;
 }
 
 h3 {
-	font-size: 2em;
+	font-size: 1.25em;
 	font-weight: 400;
 	font-family: Istok Web, sans-serif;
 	color: #0065a4;
 	text-align: left;
-	padding: 2%;
+	font-weight: 600;
 }
 
 #announcement {
 	font size: 2.5em;
 	font-style: italic;
-	padding: 2%;
 }
 
 #slogan {
@@ -112,7 +115,7 @@ h3 {
 }
 
 p {color: #0065a4;
-   font-size: 1.2em;
+   font-size: 1em;
    font-weight: 500;
    font-family: Istok Web, sans-serif;
 }
@@ -125,40 +128,13 @@ p {color: #0065a4;
 	padding: 2%;
 }
 
-#two_column {
-    border: 1px;
-    padding: 20px;
-}
-
-#left {
+#column {
     float: left;
     background-color: #f4f4f4;
-    border: 1%;
     padding: 1%;
-    width: 44%;
+    width: 46%;
 }
 
-#right {
-    float: right;
-    background-color: #f4f4f4;
-    border: 1%;
-    padding: 1%;
-    width: 44%;
-}
-
-#left1 {
-    float: left;
-    border: 1%;
-    padding: 3% 1% 1% 1%;
-    width: 50%;
-}
-
-#right1 {
-    float: right;
-    border: 1% ;
-    padding: 1%;
-    width: 38%;
-}
 .clearfix:after {
     visibility: hidden;
     display: block;
@@ -176,5 +152,5 @@ img.rounded-corners {
  ul {
  	list-style-type: square;
  	font-family: Istok Web, sans-serif;
- 	font-size: 1.2em 
+ 	font-size: 1em; 
  	}
