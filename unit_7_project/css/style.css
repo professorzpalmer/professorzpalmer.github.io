@@ -49,6 +49,7 @@ nav {
 
 .headline {
 	background-image: url(../images/laptops.jpeg);
+	background-size: 100% 100%;
 	padding: 6%;
 	font-weight: 600;
 }
@@ -62,10 +63,10 @@ a {
 	text-decoration: none;
 }
 
-
 article {
 	background-color: #f4f4f4;
 	padding: 1%;
+	clear: both;
 }
 
 footer {
@@ -76,11 +77,10 @@ footer {
 
 h1 {
 	font-size: 3em;
-	background-size: cover;
 	font-family: Istok Web, sans-serif;
 	color: #0065a4;
 	text-align: center;
-
+	padding-top: none;
 }
 
 h2 {
@@ -131,8 +131,9 @@ p {color: #0065a4;
 #column {
     float: left;
     background-color: #f4f4f4;
-    padding: 1%;
-    width: 46%;
+    padding: 3%;
+    width: 50%;
+    min-height: 500px;
 }
 
 .clearfix:after {
@@ -142,6 +143,7 @@ p {color: #0065a4;
     content: " ";
     clear: both;
 	height: 0;
+	overflow: auto;
 }
 
 img.rounded-corners {
@@ -153,4 +155,6 @@ img.rounded-corners {
  	list-style-type: square;
  	font-family: Istok Web, sans-serif;
  	font-size: 1em; 
+ 	color: #0065a4;
+ 	padding:4%;
  	}
